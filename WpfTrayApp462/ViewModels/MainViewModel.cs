@@ -1,4 +1,9 @@
-﻿namespace WpfTrayApp462.ViewModels
+﻿using System;
+using System.Windows.Input;
+using GalaSoft.MvvmLight.CommandWpf;
+using Hardcodet.Wpf.TaskbarNotification;
+
+namespace WpfTrayApp462.ViewModels
 {
     using System.Collections.ObjectModel;
     using System.Linq;

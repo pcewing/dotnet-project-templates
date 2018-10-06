@@ -4,12 +4,20 @@
              xmlns:vm="clr-namespace:WpfTrayApp462.ViewModels"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:tb="http://www.hardcodet.net/taskbar"
 			 xmlns:ignore="http://www.galasoft.ch/ignore"
              StartupUri="MainWindow.xaml"
+             Startup="App_OnStartup"
              mc:Ignorable="d ignore">
     
     <Application.Resources>
         <vm:ViewModelLocator x:Key="Locator" d:IsDataSource="True" />
+        
+        <tb:TaskbarIcon 
+            x:Key="TrayIcon"
+            IconSource="Resources/Images/Icon.ico"
+            ToolTipText="Employee Database" />
+        
     </Application.Resources>
     
 </Application>
