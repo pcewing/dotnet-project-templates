@@ -1,8 +1,7 @@
-﻿using System.Windows;
-
-namespace WpfTrayApp462
+﻿namespace WpfTrayApp462
 {
     using System;
+    using System.Windows;
     using Hardcodet.Wpf.TaskbarNotification;
     using GalaSoft.MvvmLight.Threading;
     using ViewModels;
@@ -14,10 +13,6 @@ namespace WpfTrayApp462
         static App()
         {
             DispatcherHelper.Initialize();
-        }
-
-        public void InitApplication()
-        {
         }
 
         private void App_OnStartup(object sender, StartupEventArgs e)

@@ -5,9 +5,10 @@
     using System.Linq;
     using Models;
 
+    // ReSharper disable once ClassNeverInstantiated.Global
     public class EmployeeService : IEmployeeService
     {
-        private static readonly IEnumerable<string> _employeeNames = new List<string>
+        private static readonly IEnumerable<string> EmployeeNames = new List<string>
         {
             "Verdell Wanke", "Yoko Kincade", "Eustolia Oliva", "Janeen Colbert",
             "Reina Libbey", "Sharmaine Willcox", "Marianna Palka", "Lurlene Heiss",
@@ -23,7 +24,7 @@
         {
             var random = new Random(DateTime.Now.Millisecond);
 
-            return _employeeNames.Select(name => new Employee
+            return EmployeeNames.Select(name => new Employee
             {
                 Name = name,
                 Age = random.Next(20, 50)

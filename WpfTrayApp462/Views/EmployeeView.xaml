@@ -23,7 +23,7 @@
             </Grid.ColumnDefinitions>
             
             <TextBlock Text="Age: " />
-            <TextBlock Text="{Binding Age}" Grid.Column="2" />
+            <TextBlock Text="{Binding Age}" Grid.Column="1" />
         </Grid>
     </Grid>
 </UserControl>

@@ -9,14 +9,14 @@
 
         public string Name
         {
-            get { return _name; }
-            set { Set(ref _name, value); }
+            get => _name;
+            set => Set(ref _name, value);
         }
 
         public int Age
         {
-            get { return _age; }
-            set { Set(ref _age, value); }
+            get => _age;
+            set => Set(ref _age, value);
         }
     }
 }
