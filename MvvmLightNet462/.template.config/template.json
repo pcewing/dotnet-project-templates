@@ -1,0 +1,12 @@
+{
+    "author": "Paul Ewing",
+    "classifications": [ "WPF" ],
+    "name": "MvvmLight .NET 4.6.2",
+    "identity": "MvvmLight.Net.4.6.2",
+    "shortName": "mvvmlight462",
+    "tags": {
+        "language": "C#"
+    },
+    "sourceName": "MvvmLightNet462",
+    "preferNameDirectory" : "true"
+}
