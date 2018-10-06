@@ -1,0 +1,12 @@
+{
+    "author": "Paul Ewing",
+    "classifications": [ "WPF", "MVVM" ],
+    "name": "WPF Tray App .NET 4.6.2",
+    "identity": "WpfTrayApp462",
+    "shortName": "wpftrayapp462",
+    "tags": {
+        "language": "C#"
+    },
+    "sourceName": "WpfTrayApp462",
+    "preferNameDirectory" : "true"
+}
